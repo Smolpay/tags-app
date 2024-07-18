@@ -1,0 +1,34 @@
+{
+  "name": "tags-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint --ext .js,.vue src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "vue": "^2.7.16",
+    "vue-template-compiler": "^2.7.16",
+    "vuetify": "^2.6.0",
+    "vuetify-loader": "^1.7.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "^2.3.1",
+    "@vue/babel-preset-app": "^5.0.8",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^9.7.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-vue": "^9.27.0",
+    "sass": "^1.77.8",
+    "sass-loader": "^10.5.2",
+    "vite": "^5.3.4"
+  }
+}
